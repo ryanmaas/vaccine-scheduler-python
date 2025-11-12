@@ -5,7 +5,7 @@ import os
 class ConnectionManager:
 
     def __init__(self):
-        self.db_path = os.getenv("DBPath")
+        self.db_path = os.getenv("DBPATH")
         self.conn = None
 
     def create_connection(self):
